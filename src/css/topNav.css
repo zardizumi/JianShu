@@ -1,0 +1,10 @@
+#topnav {
+    height: 55px;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #F0F0F0;
+}
+.logo {
+  height: 56px; 
+  float: left;
+}

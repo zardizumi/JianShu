@@ -1,5 +1,5 @@
 import React from 'react'
-import FlatButton from 'material-ui/FlatButton';
+import {FlatButton} from 'material-ui'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 class One extends React.Component {
@@ -9,7 +9,7 @@ class One extends React.Component {
                <h1>123</h1>
                <MuiThemeProvider>
                 <FlatButton label="Default" />
-                </MuiThemeProvider >
+                </MuiThemeProvider >    
             </div>
         )
     }
