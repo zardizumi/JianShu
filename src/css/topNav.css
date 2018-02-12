@@ -1,10 +1,63 @@
 #topnav {
-    height: 55px;
+    height: 50px;
     width: 100%;
     background: #fff;
     border-bottom: 1px solid #F0F0F0;
+    box-sizing: border-box;
 }
 .logo {
-  height: 56px; 
+  height: 50px; 
   float: left;
+  margin-right: 75px;
+  font-weight: 300;
 }
+.link {
+  float: left;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+  padding: 0 15px;
+  font-size: 17px;
+}
+.link:hover {
+  background: #F5F5F5;
+}
+.link_active {
+  color: #EA6F5A;
+  background: transparent;
+}
+.link_active:hover {
+   background: transparent;
+ 
+}
+  .topNav_input {
+    height: 35px;
+    width: 130px;
+    border-radius: 50%;
+    margin-top: 8px;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+  }
+  .topNav_input input {
+    width: 100%;
+    outline: none;
+    height: 100%;
+    border-radius: 40%;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    background: #eee;
+  }
+  .fa-search {
+    position: absolute;
+    top: 9px;
+    right: 7px;
+  }
